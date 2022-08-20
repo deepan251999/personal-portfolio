@@ -16,13 +16,18 @@ h2{
 h4{
     font-family: "Open Sans", sans-serif;
     color: #fff;
-    font-size: 20px;
-    font-weight: 100;
+    font-size: 17px;
+    font-weight: 500;
     margin-top: 20px;
 }
 p{
+    color: #fff;
     font-size: 15px;
     font-weight: 200;
+}
+a{
+   color: #fff;
+   text-decoration: none;
 }
 .resume{
     width:100%;
@@ -51,7 +56,27 @@ p{
     font-size: 26px;
     font-weight: 400;
     padding: 10px 24px;
-    
+}
+.container-left h4{
+    padding: 0 0 10px 0;
+}
+.container-left p{
+    color: #fff;
+    font-size: 15px;
+    font-weight: 200;
+    line-height: 20px;
+}
+.address h4 i{
+    display: inline-block;
+    padding: 0 3px 0 0 ;
+}
+.skill{
+    width: 90%;
+    margin: 0px auto;
+}
+.skill::before{
+    content: "";
+    background-color: #fff;
 }
                 /* RESUME RIGHT */
 .resume-right{
