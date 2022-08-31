@@ -73,11 +73,17 @@ a{
 .skill{
     width: 90%;
     margin: 0px auto;
+    padding: 10PX 0;
 }
-.skill::before{
-    content: "";
+.empty-div{
+    width: 90%;
+    margin: 0px auto;
+    padding: 10PX 0;
+    height: 10px;
+    width: 90%;
     background-color: #fff;
 }
+
                 /* RESUME RIGHT */
 .resume-right{
     width: 60%;
@@ -95,8 +101,53 @@ a{
     font-family: "Open Sans", sans-serif;
     color: #272829;
 }
-
-
+.experince-right h1{
+    color: #093164;
+    font-family: "Open Sans", sans-serif;
+    font-size: 25px;
+    padding: 10px 0 10px 15px;
+}
+hr{
+    width: 95%;
+    margin: auto;
+}
+.experince-right p{
+    color: #272829;
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    padding: 10px 0 10px 15px;
+}
+.experince-right h2{
+    color: #093164;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    padding: 50px 0 10px 15px;
+}
+.experince-right p a{
+    display: block;
+    color: #272829;
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    padding: 10px 0 50px 15px;
+}
+.experince-right1 h1{
+    color: #093164;
+    font-family: "Open Sans", sans-serif;
+    font-size: 25px;
+    padding: 10px 0 10px 15px;
+}
+.experince-right1 h4{
+    color: #272829;
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    padding: 10px 0 10px 15px;
+}
+.experince-right1 p{
+    color: #272829;
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    padding: 10px 0 10px 15px;
+}
 
 
 
