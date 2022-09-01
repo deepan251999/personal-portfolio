@@ -30,7 +30,7 @@ a{
    text-decoration: none;
 }
 .resume{
-    width:100%;
+    width:70%;
     display: flex;
     margin: 0px auto;
 }
@@ -75,14 +75,16 @@ a{
     margin: 0px auto;
     padding: 10PX 0;
 }
-.empty-div{
-    width: 90%;
-    margin: 0px auto;
-    padding: 10PX 0;
-    height: 10px;
-    width: 90%;
-    background-color: #fff;
+.skill::after{
+    content: "";
+        width: 50px;
+        height: 20px;
+        background-color: aquamarine;
 }
+progress {
+    margin: 10px 0 10px 30px;
+}
+
 
                 /* RESUME RIGHT */
 .resume-right{
